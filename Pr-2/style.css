@@ -1,0 +1,33 @@
+h1,p {
+    color: #fff;
+}
+form{
+	background-color: #272727;
+	width: 25%;
+
+}
+.placeholder{
+	background-color: #1a1b1c;
+	color: #ffffff;
+}
+
+
+#sign_up input[type="text"],#sign_up input[type="password"],#sign_up input[type="email"] {
+	width: 60%;
+	height: 35px;
+	
+	
+	font-size: 14px;
+	color: #ffffff;
+	
+	padding-left: 10px;
+
+	border-radius: 6px;
+	border-color: #1a1b1c; 
+}
+#sign_up select,#sign_up input[type="radio"] , p , h1{
+	margin-left: 5%;
+}
+#sign_up input[type="submit"] {
+	margin-bottom: 3%;
+}
