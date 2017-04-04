@@ -6,6 +6,9 @@ function getTypeOf(n){
     return str;
 }
 console.log(getTypeOf(1));
-console.log(getTypeOf(1));
-console.log(getTypeOf(1));
+console.log(getTypeOf("lol"));
+console.log(getTypeOf({}));
+console.log(getTypeOf(true));
+console.log(getTypeOf(undefined));
+console.log(getTypeOf(function(){} ));
 console.log(globalArray);
